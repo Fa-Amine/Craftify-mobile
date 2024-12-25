@@ -23,7 +23,7 @@ public class Signup extends AppCompatActivity {
         Ihaveanaccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Signup.this, "aaaa", Toast.LENGTH_SHORT).show();
+
                 Intent intent = new Intent(Signup.this, Authentication.class);
                 startActivity(intent);
             }
@@ -32,7 +32,7 @@ public class Signup extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Signup.this, "aaaaa", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Signup.this, "SignUp Button Clicked !", Toast.LENGTH_SHORT).show();
 
             }
         });
