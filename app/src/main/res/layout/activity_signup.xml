@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Authentication">
 
     <!-- Title -->
@@ -26,16 +27,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIhaveAcc"
         android:layout_width="320dp"
         android:layout_height="62dp"
         android:layout_marginStart="46dp"
         android:layout_marginTop="562dp"
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="107dp"
-        android:backgroundTint="#2196F3"
+        android:backgroundTint="#E9EDF0"
         android:fontFamily="@font/poppins_medium"
-        android:text="Login"
+        android:text="I have an account"
+        android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/BtnSignUp"
         android:layout_width="320dp"
         android:layout_height="62dp"
         android:layout_marginStart="46dp"
@@ -60,7 +62,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/password"
         android:layout_width="320dp"
         android:layout_height="62dp"
         android:layout_marginStart="46dp"
@@ -166,15 +168,17 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="75dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="330dp"
+        android:layout_width="74dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="602dp"
-        android:layout_marginEnd="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
         app:srcCompat="@drawable/origami" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
