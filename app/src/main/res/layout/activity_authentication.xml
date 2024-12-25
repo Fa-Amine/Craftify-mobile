@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authentication">
+
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginBottom="343dp"
+        android:background="@drawable/rounded_edittext"
+
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:hint=" password here"
+        android:inputType="text|textPassword"
+        android:singleLine="true"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/PtEmailInput"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginBottom="418dp"
+        android:background="@drawable/rounded_edittext"
+        android:ellipsize="end"
+    android:fontFamily="@font/poppins_medium"
+    android:hint="Email here"
+    android:maxLines="1"
+    android:scrollHorizontally="true"
+    android:textAlignment="center"
+    android:textSize="18sp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_margin="16dp"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395"
+        app:srcCompat="@drawable/user"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_margin="16dp"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lockedcomputer"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginBottom="162dp"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginBottom="234dp"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Login"
+        android:textSize="20sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="586dp"
+        android:fontFamily="monospace"
+        android:text="Sign-In"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ImgIcon1"
+        android:layout_width="107dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="512dp"
+        android:rotation="13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/origami"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/ImgIcon1"
+        android:layout_width="107dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="65dp"
+        android:rotation="-17"
+        android:rotationY="-180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/origami"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
