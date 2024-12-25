@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 // Finish MainActivity if you don't want the user to come back here
                 finish();
             }
-        }, 1300); // 1000 milliseconds = 1 second
+        }, 4300); // 1000 milliseconds = 1 second
 //        });
 
 
