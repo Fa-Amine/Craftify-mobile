@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ImageGeneration"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="32dp">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="   What's on your mind ?"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Generate"
+        android:textSize="20sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/LabelimgGEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Turn your imagination into reality"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="113dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#C0C6CA"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Clear"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="337dp"
+        android:layout_height="93dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Generate Image"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="64dp"
+        android:src="@drawable/origami"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
